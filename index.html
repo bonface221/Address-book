@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <section>
+        <h1>Address book</h1>
+        <h3>Add a contact</h2>
+        <form action="#" id="new-contact">
+            <div class="main">
+              <div class="container">
+                <div>
+                    <label for="fname">First name</label><br>
+                    <input type="text" name="First name" id="fname"><br>
+                </div>
+                <div>
+                    <label for="lname">Last name</label><br>
+                    <input type="text" name="Last name" id="lname">
+                </div>
+                <!-- <div>
+                    <label for="street">Street</label><br>
+                    <input type="text" name="street" id="street">
+                </div>
+                <div>
+                    <label for="city">City</label><br>
+                    <input type="text" name="city" id="city">
+                </div>
+                <div>
+                    <label for="state">State</label><br>
+                    <input type="text" name="state" id="state">
+                </div><br>
+                <div> -->
+                     <!-- <input type="submit" value="Another address"  id="btn1"> -->
+                    <input type="submit" value="Add" id="btn">
+                </div>
+                <h2 id="contactHeader">Contacts:</h2>
+                <ul id="contacts">
+                
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <div id="show-contact">
+                    <h2></h2>
+                    <p>First name: <span class="first-name"></span></p>
+                    <p>Last name: <span class="last-name"></span></p>
+                    <p>Addresses:</p>
+                    <ul id="addresses">
+            
+                    </ul>
+                </div>
+            </div>  
+        </div>
+            
+
+            
+        </form>
+    </section>
+    
+       
+        
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
