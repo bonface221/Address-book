@@ -1,0 +1,73 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 80%;
+    margin: 0 10%;
+    font-size: 18px;
+}
+.container div{
+    margin-top: 1%;
+}
+input[type=text]{
+    /* padding: 0.4%;
+    width: 40%; */
+    outline: none;
+    padding: 6px 0;
+    margin: 5px 1px 3px 0px;
+    border: 1.6px solid #9c9999;
+    width: 40%;
+    border-radius: 4px;
+}
+h1{
+    margin: 1% 0;
+    font-size: 35px;
+}
+input[type=text]:focus{
+     box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+     padding: 6px 0px 6px 3px;
+     margin: 5px 1px 3px 0px;
+     border: 1px solid rgba(81, 203, 238, 1);
+    
+}
+#btn{
+    width: 70px;
+     background-color: rgb(248, 197, 139);
+     outline: none;
+     border:none;
+     border-radius: 4px;
+    padding: 9px;
+    margin: 3% 0;
+}
+#btn:hover{
+    background-color: rgb(250, 145, 24);
+    color: white;
+    
+}
+/* #btn1{
+    margin-right:2%;
+    padding: 9px;
+    background-color: rgb(164, 164, 212);
+    outline: none;
+    border:none;
+    border-radius: 4px;
+
+}
+#btn1:hover{
+   background-color: rgb(25, 25, 170);
+   color: white;
+} */
+#show-contact{
+    display:none;
+}
+.contact {
+    cursor: pointer;
+    color: #0088cc;
+}
+
+.contact:hover {
+    text-decoration: underline;
+}
+   
